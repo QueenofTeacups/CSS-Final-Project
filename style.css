@@ -1,4 +1,87 @@
-.apple-logo{
-    background: none;
+body {
+    background-color: #fafafa;
+    margin-top: 70px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+header {
+    background-color: black;
+    opacity: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header nav {
+    padding-left: 225px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    /* Figure out how to make them responsive.*/
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: white;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+}
+
+.gift-guide-img {
+    display: block;
+    width: 100%;
+}
+
+.apple-card-img {
+    display: block;
+    width: 100%;
+}
+
+.iphone-ipad-img {
+    display: inline-block;
+    /* Figure out how to make them full width when browser is expanded.*/
+}
+
+.airpods-watch-ultra-img {
+    display: inline-block;
+    /* Figure out how to make them full width when browser is expanded.*/
+}
+
+.apple-gallery-img{
+    display: block;
+    width: 100%;
+}
+
+{
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+}
+
+@media screen {
+    
+}
